@@ -1,6 +1,6 @@
 ---
 title: Awesome PHP(PHP相关资料的收集汇总)
-date: 2016-04-26 18:15:20
+date: 2017-07-10 18:15:20
 category:
 tags: php
 ---
@@ -518,6 +518,7 @@ tags: php
 ## PDF PDF
 *处理PDF文件的库和软件*
 
+* [Mpdf](https://github.com/mpdf/mpdf) - 一个是从UTF-8编码的HTML生成PDF文件的PHP库
 * [Dompdf](https://github.com/dompdf/dompdf) - 一个将HTML转换为PDF的工具
 * [PHPPdf](https://github.com/psliwa/PHPPdf) - 一个将XML文件转换为PDF和图片的库
 * [Snappy](https://github.com/KnpLabs/snappy) - 一个PDF和图像生成器库
