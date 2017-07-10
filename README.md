@@ -12,6 +12,7 @@ tags: php
 <!-- more -->
 ## 目录
 - [Awesome PHP](#awesome-php)
+    - [机器学习 Machine Learning](#机器学习-machine-learning)
     - [依赖管理 Dependency Management](#依赖管理-dependency-management)
     - [其他的依赖管理 Dependency Management Extras](#其他的依赖管理-dependency-management-extras)
     - [框架 Frameworks](#框架-frameworks)
@@ -87,6 +88,11 @@ tags: php
     - [PHP内核阅读 PHP Internals Reading](#php内核阅读-php-internals-reading)
     - [PHP杂志 PHP Magazines](#php杂志-php-magazines)
 - [贡献](#贡献)
+
+## 机器学习 Machine Learning
+*机器学习*
+
+* [PHP-ML](https://github.com/php-ai/php-ml) - 一个php的机器学习库
 
 ## 依赖管理 Dependency Management
 *依赖和包管理库*
@@ -172,6 +178,7 @@ tags: php
 ## 模板 Templating
 *模板化和词法分析的库和工具*
 
+* [Twig](http://twig.sensiolabs.org/) - 一个全面的模板语(轻量、高效,推荐使用)
 * [Foil](https://github.com/FoilPHP/Foil) - 另一个原生PHP模板库
 * [Lex](https://github.com/pyrocms/lex) - 一个轻量级模板解析器
 * [MtHaml](https://github.com/arnaud-lb/MtHaml) - 一个HAML模板语言的PHP实现
@@ -180,7 +187,6 @@ tags: php
 * [PHPTAL](http://phptal.org/) - 一个[TAL](https://en.wikipedia.org/wiki/Template_Attribute_Language)模板语言的PHP实现
 * [Plates](http://platesphp.com/) - 一个原生PHP模板库
 * [Smarty](http://www.smarty.net/) - 一个模板引擎
-* [Twig](http://twig.sensiolabs.org/) - 一个全面的模板语言
 * [Tale Jade](http://jade.talesoft.io/) - Jade模版语言的PHP实现
 
 ## 静态站点生成器 Static Site Generators
