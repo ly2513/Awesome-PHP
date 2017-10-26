@@ -131,7 +131,8 @@ tags: php
 * [Radar](https://github.com/radarphp/Radar.Adr) - 一个基于PHP的Action-Domain-Responder实现
 * [Ice](http://www.iceframework.org/) - 另一个通过C扩展实现的简单快速的PHP框架
 * [Phalcon](https://phalconphp.com/en/) - 一个作为C扩展的框架
-* [Yaf](http://php.net/manual/zh/book.yaf.php) - 鸟哥的C扩展的框架 
+* [Yaf](http://php.net/manual/zh/book.yaf.php) - 鸟哥的C扩展的框架
+* [Tsf](https://github.com/Tencent/tsf) - 基于Swoole的PHP服务框架(协程)
 
 ## 其他框架 Framework Extras
 *其他Web开发框架*
