@@ -134,7 +134,7 @@ tags: php
 * [Yaf](http://php.net/manual/zh/book.yaf.php) - 鸟哥的C扩展的框架
 * [Tsf](https://github.com/Tencent/tsf) - 基于Swoole的PHP服务框架(协程)
 
-## 其他框架 Framework Extras
+## 其他框架 Framework Extras一个安全的PHP加密库
 *其他Web开发框架*
 
 * [CakePHP CRUD](https://github.com/friendsofcake/crud) - CakePHP的快速应用程序（RAD）插件
@@ -350,7 +350,7 @@ tags: php
 * [IniScan](https://github.com/psecio/iniscan) - 一个扫描PHP INI文件安全的库
 * [jose](https://github.com/namshi/jose) - JSON签名和加密的库
 * [Optimus](https://github.com/jenssegers/optimus) - 基于Knuth乘法散列方法的身份混淆工具
-* [PHP Encryption](https://github.com/defuse/php-encryption) - 一个安全的PHP加密库
+* [PHP Encryption](https://github.com/defuse/php-encryption) - 一个安全的PHP对称密钥加密库
 * [PHP IDS](https://github.com/PHPIDS/PHPIDS) - 一个结构化的PHP安全层
 * [PHP SSH](https://github.com/Herzult/php-ssh) - 一个试验的面向对象的SSH包装库
 * [PHPSecLib](http://phpseclib.sourceforge.net/) - 一个纯PHP安全通信库
@@ -360,6 +360,7 @@ tags: php
 * [TCrypto](https://github.com/timoh6/TCrypto) - 一个简单的键值加密存储库
 * [True Random](https://github.com/pixeloution/true-random) - 使用[www.random.org](https://www.random.org/)生成随机数的库
 * [VAddy](http://vaddy.net) - 一个持续安全的web应用测试平台
+* [SQLMap](https://github.com/sqlmapproject/sqlmap) - 一个自动SQL注入和数据库接管工具
 * [Zed](https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project) - 一个集成的web应用渗透测试工具
 
 ## 密码 Passwords
@@ -378,11 +379,12 @@ tags: php
 *分析，解析和处理代码库的库和工具*
 
 * [Athletic](https://github.com/polyfractal/athletic) - 一个基于注释的基准检测库
-* [Code Climate](https://codeclimate.com) - 一个自动代码审查工具
+* [Code Climate](https://codeclimate.com) - 一个自动代码审查工具(自动化code review)
 * [Dissect](https://github.com/jakubledl/dissect) - 一个词法和语法分析的工具集合
 * [Exakat](http://www.exakat.io) - 一个PHP的静态分析引擎
 * [GrumPHP](https://github.com/phpro/grumphp) - 一个用来保护代码质量的Composer插件
 * [Mondrian](https://github.com/Trismegiste/Mondrian) - 使用图论的代码分析工具
+* [phan](https://github.com/phan/phan) - 一个代码静态分析工具
 * [PHP Analyser](https://github.com/scrutinizer-ci/php-analyzer) - 一个分析PHP代码查找缺陷和错误的库
 * [PHP Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer) - 一个检测PHP、CSS和JS代码标准冲突的库
 * [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) - 一个编码标准库
@@ -399,6 +401,8 @@ tags: php
 * [PHPQA](https://github.com/EdgedesignCZ/phpqa) - 一个用于运行质量保证工具的工具(phploc, phpcpd, phpcs, pdepend, phpmd, phpmetrics).
 * [PHPPHP](https://github.com/ircmaxell/PHPPHP) - 一个PHP实现的PHP虚拟机
 * [PHPSandbox](https://github.com/fieryprophet/php-sandbox) - 一个PHP沙盒环境
+* [Phpstan](https://github.com/phpstan/phpstan) - 一个代码静态分析工具
+* [Psalm](https://github.com/vimeo/psalm) - 一个帮助你识别代码里可能存在 bugs 的静态分析工具
 * [Scrutinizer](https://scrutinizer-ci.com/) - 一个审查PHP代码的web工具
 * [UBench](https://github.com/devster/ubench) - 一个简单的微型基准检测库
 
@@ -430,9 +434,10 @@ tags: php
 * [PHPBench](https://github.com/phpbench/phpbench) - 一个基准测试框架
 * [PHPDBG](http://phpdbg.com/) - 一个交互的PHP调试器
 * [PHP Console](https://github.com/Seldaek/php-console) - Web调试控制台
+* [Phptrace](https://github.com/Qihoo360/phptrace) - 360开源的PHP执行跟踪工具
 * [Tideways.io](https://tideways.io/) - Monitoring and profiling tool
 * [Tracy](https://github.com/nette/tracy) - A一个简单的错误检测，写日志和时间测量库
-* [xDebug](https://github.com/xdebug/xdebug) - 一个调试和分析PHP的工具
+* [XDebug](https://github.com/xdebug/xdebug) - 一个调试和分析PHP的工具
 * [XHProf](https://github.com/phacility/xhprof) - 一个最初由Facebook开发的分析工具
 * [Z-Ray](http://www.zend.com/en/products/server/z-ray) - 一个调试和配置Zend服务器的工具
 
@@ -474,6 +479,8 @@ tags: php
 * [GeoCoder](http://geocoder-php.org/) - 一个地理编码库
 * [GeoJSON](https://github.com/jmikola/geojson) - 一个GeoJSON的实现
 * [GeoTools](https://github.com/thephpleague/geotools) - 一个地理工具相关的库
+* [Geoip](https://github.com/Torann/laravel-geoip) - 一个通过IP获取到对应的地理位置信息（GeoIP 数据库）
+* [Ip2region](https://github.com/lionsoul2014/ip2region) - 一个IP地址定位库
 * [PHPGeo](https://github.com/mjaschen/phpgeo) - 一个简单的地理库
 
 ## 日期和时间 Date and Time
@@ -515,6 +522,12 @@ tags: php
 
 * [Money](https://github.com/moneyphp/money) - 一个Fowler金钱模式的PHP实现
 * [OmniPay](https://github.com/thephpleague/omnipay) - 一个框架混合了多网关支付处理的库
+    - omnipay-alipay - 支付宝支付
+    - omnipay-pingpp - ping++聚合支付
+    - omnipay-paypal - PayPal 支付
+    - omnipay-unionpay - 银联支付
+    - omnipay-wechatpay - 微信支付
+    - omnipay-99bill - 快钱支付
 * [Payum](https://github.com/payum/payum) - 一个支付抽象库
 * [Sebastian Money](https://github.com/sebastianbergmann/money) - 另一个处理货币值的库
 * [Shopware](https://github.com/shopware/shopware) - 一个可高度定制的电子商务软件
