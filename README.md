@@ -386,7 +386,7 @@ tags: php
 * [Mondrian](https://github.com/Trismegiste/Mondrian) - 使用图论的代码分析工具
 * [phan](https://github.com/phan/phan) - 一个代码静态分析工具
 * [PHP Analyser](https://github.com/scrutinizer-ci/php-analyzer) - 一个分析PHP代码查找缺陷和错误的库
-* [PHP Code Sniffer](https://github.com/squizlabs/PHP_CodeSniffer) - 一个检测PHP、CSS和JS代码标准冲突的库
+* [PHP Code Sniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) - 一个检测PHP、CSS和JS代码标准冲突的库
 * [PHP CS Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer) - 一个编码标准库
 * [PHP Manipulator](https://github.com/schmittjoh/php-manipulator) - 一个分析和修改PHP源代码的库
 * [PHP Mess Detector](https://phpmd.org/) - 一个扫描代码缺陷，次优代码，未使用的参数等等的库。
