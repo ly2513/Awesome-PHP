@@ -304,6 +304,7 @@ tags: php
 * [Codeception](https://github.com/Codeception/Codeception) - 一个全栈测试框架
 * [DBUnit](https://github.com/sebastianbergmann/dbunit) - 一个PHPUnit的数据库测试库
 * [Faker](https://github.com/fzaninotto/Faker) - 一个伪数据生成库
+* [Mock Jutsu](https://github.com/altansayan/mock-jutsu-api) - 校验和有效的金融与身份测试数据生成库 (IBAN MOD-97、Luhn 卡号、TCKN、ISIN)，以及真实注册的 BIC/SWIFT 代码。无原生 PHP SDK，可通过 REST API 使用。
 * [HTTP Mock](https://github.com/InterNations/http-mock) - 一个在单元测试模拟HTTP请求的库
 * [Kahlan](https://github.com/crysalead/kahlan) - 全栈Unit/BDD测试框架，内置stub，mock和代码覆盖率的支持
 * [Locust](http://locust.io/) - 一个Python开发的现代负载测试库
